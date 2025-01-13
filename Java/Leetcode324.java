@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Arrays;
 class Solution {
     public void wiggleSort(int[] nums) {
         int n=nums.length-1;

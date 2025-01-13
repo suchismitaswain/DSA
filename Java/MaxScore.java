@@ -1,3 +1,7 @@
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.List;
+
 class Solution {
     public int maxScore(List<List<Integer>> grid) {
         for (var row : grid)

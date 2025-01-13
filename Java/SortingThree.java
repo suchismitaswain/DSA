@@ -1,3 +1,5 @@
+import java.util.List;
+
 class Solution {
     public int minimumOperations(List<Integer> nums) {
         final int n = nums.size();

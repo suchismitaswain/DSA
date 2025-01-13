@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+
 class Solution {
     public int count(int x){
         int con = 0;
