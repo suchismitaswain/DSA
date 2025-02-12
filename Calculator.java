@@ -15,7 +15,6 @@ public class Calculator {
                 int num1= in.nextInt();
                 int num2 = in.nextInt();
                 
-
                 if (op == '+' ){
                     ans= num1+ num2;
                 }
