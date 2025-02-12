@@ -28,7 +28,6 @@ class Solution {
                 ans = Math.min(ans, operations);
             }
         }
-
         return ans;
     }
 }
