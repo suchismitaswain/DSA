@@ -3,7 +3,6 @@ class Solution(object):
         prefix = []
         res = []
         count = 0
-
         def isVowel(c):
             return c in 'aeiou'
 
