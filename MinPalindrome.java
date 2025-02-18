@@ -1,4 +1,5 @@
 public class MinPalindrome {
+    
     class Solution {
         public int minInsertions(String s) {
             int n = s.length();
@@ -19,7 +20,6 @@ public class MinPalindrome {
                     prev = temp;
                 }
             }
-    
             return dp[n-1];        
         }
     }
