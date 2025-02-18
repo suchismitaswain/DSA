@@ -26,8 +26,7 @@ public class NestedSwitch {
                 }
                 
             default:
-                System.out.println("Enter correcr empID");
-                
+                System.out.println("Enter correcr empID");      
         }
 
     }
