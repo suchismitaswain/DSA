@@ -11,5 +11,4 @@ class Solution:
             if num in mp:
                 result.append(num)
                 del mp[num]
-        
         return result
