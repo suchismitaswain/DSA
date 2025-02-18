@@ -19,6 +19,5 @@ class Solution:
         while i < n:
             result.append(intervals[i])
             i += 1
-        
         return result
         
