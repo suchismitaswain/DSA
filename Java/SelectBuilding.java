@@ -11,7 +11,6 @@ class Solution {
                 ans=ans+zeroOne;
                 oneZero=oneZero+ones;
                 zeroes++;
-
             }
             else{
                 ans=ans+oneZero;
