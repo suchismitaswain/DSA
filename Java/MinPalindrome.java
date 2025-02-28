@@ -15,11 +15,9 @@ public class MinPalindrome {
                     } else {
                         dp[j] = Math.min(dp[j], dp[j-1]) + 1;
                     }
-    
                     prev = temp;
                 }
             }
-    
             return dp[n-1];        
         }
     }
