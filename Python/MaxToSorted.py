@@ -1,0 +1,11 @@
+from typing import List
+
+def maxChunksToSorted(self, arr: List[int]) -> int:
+        stack = []
+        for num in arr:
+            m = num
+            while stack and num < stack[-1]:
+                m = max(m, stack.pop())
+            stack.append(m)
+        return len(stack)
+        
